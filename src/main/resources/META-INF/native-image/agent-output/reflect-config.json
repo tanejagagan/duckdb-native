@@ -1,0 +1,93 @@
+[
+{
+  "name":"[B"
+},
+{
+  "name":"com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"java.nio.Buffer",
+  "fields":[{"name":"address"}]
+},
+{
+  "name":"java.nio.DirectByteBuffer",
+  "methods":[{"name":"<init>","parameterTypes":["long","long"] }]
+},
+{
+  "name":"java.security.SecureRandomParameters"
+},
+{
+  "name":"java.sql.SQLException",
+  "fields":[{"name":"next"}]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicReference",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"org.apache.arrow.c.ArrowArrayStream",
+  "methods":[{"name":"wrap","parameterTypes":["long"] }]
+},
+{
+  "name":"org.apache.arrow.c.Data",
+  "methods":[{"name":"importArrayStream","parameterTypes":["org.apache.arrow.memory.BufferAllocator","org.apache.arrow.c.ArrowArrayStream"] }]
+},
+{
+  "name":"org.apache.arrow.memory.BufferAllocator"
+},
+{
+  "name":"org.apache.arrow.memory.unsafe.DefaultAllocationManagerFactory",
+  "fields":[{"name":"FACTORY"}]
+},
+{
+  "name":"org.apache.arrow.vector.types.pojo.ArrowType",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.apache.arrow.vector.types.pojo.ArrowType$Int",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.apache.arrow.vector.types.pojo.ArrowType$PrimitiveType",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.arrow.vector.types.pojo.DictionaryEncoding",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.apache.arrow.vector.types.pojo.Field",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.apache.arrow.vector.types.pojo.Schema",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.duckdb.DuckDBDriver"
+},
+{
+  "name":"sun.misc.Unsafe",
+  "fields":[{"name":"theUnsafe"}]
+},
+{
+  "name":"sun.security.provider.NativePRNG",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"<init>","parameterTypes":["java.security.SecureRandomParameters"] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]
